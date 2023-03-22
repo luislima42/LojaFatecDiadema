@@ -27,5 +27,10 @@ public class HomeController {
     public String suplemento(){
         return "suplemento";
     }
+
+    @GetMapping("/livro")
+    public String livro(){
+        return "livro";
+    }
 }
 
